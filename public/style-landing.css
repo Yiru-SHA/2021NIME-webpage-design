@@ -67,8 +67,10 @@ img {
 /* Change the background color on mouse-over */
 
 .heading a:hover {
-    background-color: rgb(238, 91, 51);
+    /* background-color: rgb(238, 91, 51); */
     color: black;
+    font-size: 35px;
+    font-style: extra-bold;
 }
 
 .heading b {
