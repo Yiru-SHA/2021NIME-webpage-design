@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NIME-IMAartist</title>
-    <link href="style-IMAartist.css" rel="stylesheet"/>
-   
+    <title>NIME-landing</title>
+    <link href="style-artists.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1 class="project_title">
-        <span class="project_headingLeft">2021NIME</span> 
-    </h1>
-   <!--<h2>New York City</h2>-->
-    <!-- <section class="options">
-        <section class = "dropDown"></section>
-            <div>
-                <select id="subDate-dropdown" name="subDate"></select>
+    <div class="header" class = "flex-container">
+        <!-- Po-Wen: reference from https://www.w3schools.com/howto/howto_css_responsive_header.asp -->
+        <!-- <a href="index-landing.html" class="logo">CompanyLogo</a> -->
+        <div id="nav-bar" >
+            <a class="nav-bar-item" href="index-landing.html">HOME</a>
+            <a class="nav-bar-item" href="index-about.html">ABOUT</a>
+            <a class="nav-bar-item" href="index-performances.html">PERFORMANCES</a>
+            <a class="nav-bar-item" href="index-artists.html">ARTISTS</a>
+        </div>
+    </div>
+
+
+    <div class = "main-container">
+        <div class = "center">
+            <h1>Meet the Artists</h1>
+        </div>
+        
+        <div class= "artist-description">
+            <div class="artist-name">
+                <h2>Adam Colestock - Chicago, USA</h2>
             </div>
-        </section>
-       
-    </section> -->
+           
+            <div class= "artist-bio">
+                <div class="artist-photo">
+                    <img src="/assets/adam-bio_photo.jpg" alt="adam photo" width="200">
+                </div>
+                <div>
+                <h3>Bio:</h3>
+                <p>I am a Chicago-based teacher and artist. I am drawn to patterns, structures and systems. I
+                    create art that makes my brain want to sing along. For me, mathematics and computation are tools for
+                    tinkering, experimentation and play. I explore how techniques such as agent-based models, parametric
+                    design, dynamic geometry and recursive algorithms can be used to produce patterns and forms that
+                    balance opposing forces as they spread out across time and space. I am inspired by natural
+                    structures and behaviors that have evolved over millions of years as well as the rich history of
+                    visual design across human cultures. I also enjoy yoga, guitar and piano, rock-climbing, taking
+                    photographs, reading sci-fi, and I am equal parts fascinated by the natural world and robots.
+                </p>
+            </div>
+
+            <div class = "artist-instrument">
+                <div class="instrument-photo center">
+                    <img  src="/assets/adam-instrument_photo01.jpg" alt="scultpure photo" width="600px">
+                </div>
+                <h3>Instrument:</h3>
+                <p>For my instrument, I chose to highlight the way that public sculptures and green spaces play a key role in making my local neighborhood an inviting and sustaining place to live.  I live within walking distance of the North Pond in Lincoln Park and have developed the habit of taking an almost daily stroll around the pond, with my camera in hand, to get some fresh air and enjoy the passage of time and the changing of seasons as it manifests in the natural word.</p>
+                <p>I also love the variety of public sculptures in and around Chicago.  Whether biking the lakefront or walking through downtown, it is hard to travel far without encountering a public sculpture.  The city itself becomes an art gallery that you can move through and the diverse array of sculptures can serve as meeting points, landmarks, backdrops, objects to sketch and much more.</p>
+                <p>For my instrument, I selected one of my favorite sculptures that I encounter on my walks around the pond, located just outside the Peggy Notebaert Nature Museum. I used a field recorder and contact microphones to sample sounds from different points on the sculpture as I struck it with a xylophone mallet. Due to the variability in the interior construction of the various limbs of the abstract tree form, I found three distinct sounds that I could use.  As I play, I take those sampled sounds and shift their pitch up or down as I lay out a sequence of sounds that I gradually mutate over time as I change a few notes at a time.</p>
+            </div>
+        </div>
 
 
-       
 
-    
+    </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
-<script src="app-IMAartist.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/underscore@1.11.0/underscore-min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="app-IMAartist.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.11.0/underscore-min.js"></script>
 
 </body>
+
 </html>
