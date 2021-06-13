@@ -64,6 +64,13 @@ body {
     min-height: 1250px;
 }
 
+#landing-description{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
 
 /* Centered text */
 
@@ -74,6 +81,14 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.text {
+    color: white;
+    background: url(/assets/landingbackground.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-container {
@@ -87,8 +102,6 @@ body {
 }
 
 /* Centered Video */
-
-
 .performance-video {
     height: 100%;
     /* left: 0; */
@@ -97,3 +110,14 @@ body {
     width:100%;
     min-width: 320px;
 }
+
+.spectrum-background {
+    /* color: whte; */
+    background:
+        linear-gradient(to bottom left, #d7603f, transparent),
+        linear-gradient(to top left, #438481, transparent),
+        linear-gradient(to top right, white, transparent),
+        linear-gradient(to bottom right, black, transparent);
+    background-blend-mode: hard-light;
+}
+
