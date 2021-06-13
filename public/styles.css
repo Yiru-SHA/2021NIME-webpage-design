@@ -85,3 +85,15 @@ body {
     padding-bottom: 50px;
     text-align: center;
 }
+
+/* Centered Video */
+
+
+.performance-video {
+    height: 100%;
+    /* left: 0; */
+    /* position: absolute; */
+    top: 0;
+    width:100%;
+    min-width: 320px;
+}
