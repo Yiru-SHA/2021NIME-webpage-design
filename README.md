@@ -14,3 +14,5 @@ Write what you have done each time
 //Yiru add Video to performance page
 
 //Po-Wen pushed on 6/13 ET 6:24 am ET add indivisual artists folder in assets folder, all artists information filled in artists page
+
+// Yiru updated Video to performance page @. 6/13 9:29 am ET
